@@ -15,6 +15,7 @@ Re-introducing the Dynamic Power Management parameter fixed the initialization c
 The fix involves ensuring the following parameter is present in the Nvidia modprobe configuration:
 ```bash
 options nvidia "NVreg_DynamicPowerManagement=0x02"
+```
 
 ## Outcome & Contribution
 
