@@ -1,10 +1,10 @@
 # Fix: Headset Microphone Detection (Acer Aspire V3-572G)
 
 ## The Problem
-The Combo Jack on the Acer Aspire V3-572G (Realtek ALC283) failed to correctly detect external microphones. Standard workarounds enabled the microphone but resulted in "ghost" entries, showing 3 microphones instead of the 2 physical ones.
+The Combo Jack on the Acer Aspire V3-572G (Realtek ALC283) failed to correctly detect external microphones. When a headset was plugged in, audio output worked correctly, but the system only recognized the internal microphone.
 
 ## Diagnostic Process
-1. **Initial Troubleshooting:** Identified that the system was using the `snd_hda_codec_alc269` driver family.
+1. **Initial Workaround:** Discovered that adding `options snd-hda-intel model=auto,dell-headset-multi` to `/etc/modprobe.d/alsa-base.conf` enabled microphone detection, but created a "ghost" entry (showing 3 microphones instead of the 2 physical ones).
 2. **Bug Reporting:** Since community forum solutions were incomplete, I opened a formal bug report on the **Linux Kernel Bugzilla (#221075)**, providing system logs and codec information.
 3. **Collaboration with Maintainers:** - **Charalampos Mitrodimas** suggested testing the specific model parameter: `options snd-hda-intel model=auto,aspire-headset-mic`.
    - Testing confirmed this resolved the "ghost" microphone issue, correctly showing only the Internal and Headset microphones.
