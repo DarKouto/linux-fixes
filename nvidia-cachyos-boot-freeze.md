@@ -21,6 +21,5 @@ options nvidia "NVreg_DynamicPowerManagement=0x02"
 
 Peter Jung reverted the removal in the official cachyos-settings repository. The fix was pushed to all users, maintaining S0ix support while restoring boot stability.
 
-Official Commit: [Revert "Remove NVreg_DynamicPowerManagement option (#194)"](https://github.com/CachyOS/CachyOS-Settings/commit/d41e44a417054ffe7dab90ace958ffc3f51fac0e)
+Official Commit made by: [Peter Jung (pter1337)](https://github.com/ptr1337) ===> [Revert "Remove NVreg_DynamicPowerManagement option (#194)"](https://github.com/CachyOS/CachyOS-Settings/commit/d41e44a417054ffe7dab90ace958ffc3f51fac0e)
 
-Made By: [Peter Jung (pter1337)](https://github.com/ptr1337)
