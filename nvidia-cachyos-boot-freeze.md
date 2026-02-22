@@ -23,4 +23,4 @@ Peter Jung reverted the removal in the official cachyos-settings repository. The
 
 Official Commit: [Revert "Remove NVreg_DynamicPowerManagement option (#194)"](https://github.com/CachyOS/CachyOS-Settings/commit/d41e44a417054ffe7dab90ace958ffc3f51fac0e)
 
-By: [Peter Jung (pter1337)](https://github.com/ptr1337)
+Made By: [Peter Jung (pter1337)](https://github.com/ptr1337)
