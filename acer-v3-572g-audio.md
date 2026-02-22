@@ -24,4 +24,4 @@ Based on the provided Subsystem ID and successful test results, a formal patch w
 
 The fix is now part of the official Linux Kernel (Mainline). This ensures out-of-the-box audio support for this Acer model globally.
 
-[Official Patch: Lore Kernel Archive - Patch Submission](https://lore.kernel.org/all/20260221-fix-detect-mic-v1-1-b6e427b5275d@posteo.net/T/#u)
+[Official Lore Kernel Archive: [PATCH] ALSA: hda/realtek: Add quirk for Acer Aspire V3-572G](https://lore.kernel.org/all/20260221-fix-detect-mic-v1-1-b6e427b5275d@posteo.net/T/#u)
