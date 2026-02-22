@@ -21,4 +21,4 @@ SND_PCI_QUIRK(0x1458, 0x900e, "Gigabyte G5 KF5 (2023)", ALC2XX_FIXUP_HEADSET_MIC
 
 The fix was merged into the CachyOS Linux Kernel. Users of this laptop model no longer need to manually create modprobe configuration files.
 
-Official Commit by [Eric Naim (1Naim)](https://github.com/1Naim): => [Gigabyte G5 KF5 (2023) Audio Quirk](https://github.com/CachyOS/linux/commit/dd90b60b63e88586f1298d8ed1156e94631bf2aa)
+Official Commit made by [Eric Naim (1Naim)](https://github.com/1Naim) on ===> [Gigabyte G5 KF5 (2023) Audio Quirk](https://github.com/CachyOS/linux/commit/dd90b60b63e88586f1298d8ed1156e94631bf2aa)
