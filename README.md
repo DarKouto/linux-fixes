@@ -6,9 +6,9 @@ Personal log of Linux Contributions. Including hardware fixes, Nvidia boot issue
 
 | Device / System | Component | Status | Contribution Type |
 | :--- | :--- | :--- | :--- |
-| **Acer Aspire V3-572G** | Audio (ALC283) | **Merged Upstream** | Formal Kernel Patch (Bugzilla) |
-| **Gigabyte G5 KF5** | Audio (ALC897) | **Merged (CachyOS)** | Kernel Quirk (SND_PCI_QUIRK) |
-| **Nvidia (Laptops)** | Boot / Power Mgmt | **Resolved** | Bug Isolation & Package Revert |
+| [**Acer Aspire V3-572G**](https://github.com/DarKouto/linux-fixes/blob/main/acer-v3-572g-audio.md) | Audio (ALC283) | **Merged Upstream** | Formal Kernel Patch (Bugzilla) |
+| [**Gigabyte G5 KF5**](https://github.com/DarKouto/linux-fixes/blob/main/gigabyte-g5-kf5-audio.md) | Audio (ALC897) | **Merged (CachyOS)** | Kernel Quirk (SND_PCI_QUIRK) |
+| [**Nvidia (Laptops)**](https://github.com/DarKouto/linux-fixes/blob/main/nvidia-cachyos-boot-freeze.md) | Boot / Power Mgmt | **Resolved** | Bug Isolation & Package Revert |
 
 ---
 
