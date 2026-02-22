@@ -12,9 +12,10 @@ The Combo Jack on the Gigabyte G5 KF5 (Realtek ALC897) was failing to detect ext
 To make the fix permanent and "Out of the Box" (OOTB) for all users, a Kernel Quirk was added to the CachyOS hardware-specific patches.
 
 - **Hardware ID:** `0x1458:0x900e`
-- **Quirk Line:** ```c
-  SND_PCI_QUIRK(0x1458, 0x900e, "Gigabyte G5 KF5 (2023)", ALC2XX_FIXUP_HEADSET_MIC),
-  ```
+- **Quirk Line:**
+```c
+SND_PCI_QUIRK(0x1458, 0x900e, "Gigabyte G5 KF5 (2023)", ALC2XX_FIXUP_HEADSET_MIC),
+```
 
 ## Outcome & Contribution
 
