@@ -28,4 +28,4 @@ The fix is now part of the official Linux Kernel (Mainline). This ensures out-of
 
 It is also in the CachyOS Kernel
 
-Official Commit made by [Eric Naim (1Naim)](https://github.com/1Naim) ===> [ALSA: hda/realtek: Add quirk for Acer Aspire V3-572G]https://github.com/CachyOS/linux/commit/bd318964ba38d38ceab1611d91084fc7e1a6d5ad
+Official Commit made by [Eric Naim (1Naim)](https://github.com/1Naim) ===> [ALSA: hda/realtek: Add quirk for Acer Aspire V3-572G](https://github.com/CachyOS/linux/commit/bd318964ba38d38ceab1611d91084fc7e1a6d5ad)
