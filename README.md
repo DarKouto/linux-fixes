@@ -6,25 +6,25 @@ Personal log of Linux Contributions. Including hardware fixes, Nvidia boot issue
 
 | Device / System | Component | Status | Contribution Type |
 | :--- | :--- | :--- | :--- |
-| [**Acer Aspire V3-572G**](https://github.com/DarKouto/linux-fixes/blob/main/acer-v3-572g-audio.md) | Audio (ALC283) | **Merged Upstream** | Formal Kernel Patch (Bugzilla) |
-| [**Gigabyte G5 KF5**](https://github.com/DarKouto/linux-fixes/blob/main/gigabyte-g5-kf5-audio.md) | Audio (ALC897) | **Merged (CachyOS)** | Kernel Quirk (SND_PCI_QUIRK) |
-| [**Nvidia (Laptops)**](https://github.com/DarKouto/linux-fixes/blob/main/nvidia-cachyos-boot-freeze.md) | Boot / Power Mgmt | **Resolved** | Bug Isolation & Package Revert |
+| [**Acer Aspire V3-572G**](./acer-v3-572g-audio.md) | Audio (ALC283) | **Merged Upstream** | Formal Kernel Patch (Bugzilla) |
+| [**Gigabyte G5 KF5**](./gigabyte-g5-kf5-audio.md) | Audio (ALC897) | **Merged (CachyOS)** | Kernel Quirk (SND_PCI_QUIRK) |
+| [**Nvidia (Laptops)**](./nvidia-cachyos-boot-freeze.md) | Boot / Power Mgmt | **Resolved** | Bug Isolation & Package Revert |
 
 ---
 
 ## 📂 Documented Fixes
 
-### 1. [Acer Aspire V3-572G: Headset Mic Detection](./fixes/acer-v3-572g-audio.md)
+### 1. [Acer Aspire V3-572G: Headset Mic Detection](./acer-v3-572g-audio.md)
 Fixed a long-standing issue where the combo jack failed to detect external microphones or created "ghost" devices.
 * **Impact:** Global support in the Mainline Linux Kernel.
 * **Key Tech:** HDA Codec, Bugzilla, SND_PCI_QUIRK.
 
-### 2. [Gigabyte G5 KF5 (2023): Audio Jack Fix](./fixes/gigabyte-g5-kf5-audio.md)
+### 2. [Gigabyte G5 KF5 (2023): Audio Jack Fix](./gigabyte-g5-kf5-audio.md)
 Resolved microphone detection issues on the Realtek ALC897 codec by implementing a hardware-specific quirk.
 * **Impact:** Out-of-the-box support for CachyOS users.
 * **Key Tech:** Modprobe, Kernel Maintainer Collaboration.
 
-### 3. [Nvidia: Boot Freeze (cachyos-settings)](./fixes/nvidia-cachyos-boot-freeze.md)
+### 3. [Nvidia: Boot Freeze (cachyos-settings)](./nvidia-cachyos-boot-freeze.md)
 Identified and helped resolve a critical boot freeze caused by a regression in power management parameters.
 * **Impact:** Fixed boot stability for Nvidia laptop users on CachyOS.
 * **Key Tech:** System Snapshots, Regression Testing, Collaboration with Peter Jung.
