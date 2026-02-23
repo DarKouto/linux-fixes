@@ -22,10 +22,8 @@ Based on the provided Subsystem ID and successful test results, a formal patch w
 
 ## Outcome & Contribution
 
-The fix is now part of the official Linux Kernel (Mainline). This ensures out-of-the-box audio support for this Acer model globally.
+The fix is now part of the official **Linux Kernel (Mainline)**. This ensures out-of-the-box audio support for this Acer model globally.
+- [Official Lore Kernel Archive: [PATCH] ALSA: hda/realtek: Add quirk for Acer Aspire V3-572G](https://lore.kernel.org/all/20260221-fix-detect-mic-v1-1-b6e427b5275d@posteo.net/T/#u)
 
-[Official Lore Kernel Archive: [PATCH] ALSA: hda/realtek: Add quirk for Acer Aspire V3-572G](https://lore.kernel.org/all/20260221-fix-detect-mic-v1-1-b6e427b5275d@posteo.net/T/#u)
-
-It is also in the CachyOS Kernel
-
-Official Commit made by [Eric Naim (1Naim)](https://github.com/1Naim) ===> [ALSA: hda/realtek: Add quirk for Acer Aspire V3-572G](https://github.com/CachyOS/linux/commit/bd318964ba38d38ceab1611d91084fc7e1a6d5ad)
+It is also in the **CachyOS Kernel**
+- Official Commit made by [Eric Naim (1Naim)](https://github.com/1Naim) ===> [ALSA: hda/realtek: Add quirk for Acer Aspire V3-572G](https://github.com/CachyOS/linux/commit/bd318964ba38d38ceab1611d91084fc7e1a6d5ad)
