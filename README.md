@@ -28,8 +28,3 @@ Resolved microphone detection issues on the Realtek ALC897 codec by implementing
 Identified and helped resolve a critical boot freeze caused by a regression in power management parameters.
 * **Impact:** Fixed boot stability for Nvidia laptop users on CachyOS.
 * **Key Tech:** System Snapshots, Regression Testing, Collaboration with Peter Jung.
-
----
-
-## 💡 Why this exists?
-Because Linux is about freedom and community. Documenting these "quirks" helps others with the same hardware and ensures that the "it just works" experience becomes a reality for more people.
